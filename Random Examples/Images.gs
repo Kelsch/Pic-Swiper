@@ -10,7 +10,7 @@
 ////google search engine id https://www.google.com/cse/create/new
 
 
-var botId = "Your bot ID";
+var botId = "8b5cfd546506586702bdc80f96";
 function sendText(text){
   UrlFetchApp.fetch("https://api.groupme.com/v3/bots/post", {"method":"post", "payload":'{"bot_id":"' + botId + '","text":"' + text + '"}'})
 }
