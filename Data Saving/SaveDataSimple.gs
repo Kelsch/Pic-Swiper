@@ -10,7 +10,7 @@
 
 //this is the url of your spreadsheet where the data is saved. Make sure your Google Apps Script account and Google Drive
 //account are the same so your bot can access your spreadsheet with no problems
-var sheet = SpreadsheetApp.openByUrl('https://docs.google.com/spreadsheets/d/1qA3tcO1Wl0f1ccqwezEyP7-lo1CNbjqr_a5kMaNlzk4/edit');
+var sheet = SpreadsheetApp.openByUrl('https://docs.google.com/spreadsheets/d/1XxeYLjJ3-gTRP2fVx-a08jYWzJskR_ELmDNn7pADBDY/edit#gid=0');
 
 //respond to any commands
 function doPost(e) {
