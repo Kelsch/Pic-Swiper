@@ -1,6 +1,6 @@
 //an example for some basic Google Apps Script / Bot stuff
 
-var botId = "8b5cfd546506586702bdc80f96";
+var botId = "137bc064d78d20bb8b7447d2fc";
 function sendText(text){
   UrlFetchApp.fetch("https://api.groupme.com/v3/bots/post", {"method":"post", "payload":'{"bot_id":"' + botId + '","text":"' + text + '"}'})
 }
